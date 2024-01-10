@@ -1,5 +1,3 @@
-// InlineEditDialog.js
-
 import React, { useState } from "react";
 
 const EditDialog = ({ taskName, onSave, onCancel }) => {
