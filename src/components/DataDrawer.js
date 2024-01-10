@@ -103,7 +103,7 @@ const DataDrawer = ({ isOpen, onClose, onSubmit }) => {
                         type="text"
                         value={descriptions}
                         onChange={(e) => setDescriptions(e.target.value)}
-                        className="border rounded w-full py-2 px-3"
+                        className="border rounded w-full h-24 py-2 px-3"
                     />
                 </div>
 

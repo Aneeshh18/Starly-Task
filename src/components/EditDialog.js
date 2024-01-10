@@ -1,6 +1,6 @@
 // InlineEditDialog.js
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const EditDialog = ({ taskName, onSave, onCancel }) => {
   const [editedTaskName, setEditedTaskName] = useState(taskName);
@@ -12,9 +12,7 @@ const EditDialog = ({ taskName, onSave, onCancel }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
       <div className="bg-white p-8 rounded shadow-md">
-        <label className="block mb-2 text-lg font-semibold">
-          Task Name:
-        </label>
+        <label className="block mb-2 text-lg font-semibold">Task Name:</label>
         <input
           type="text"
           id="editedTaskName"
